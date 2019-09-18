@@ -1,0 +1,212 @@
+.classify-lists{
+	z-index: 20;
+}
+/*签到部分*/
+.sign{
+	width: 270px;
+	background: #fff;
+	margin-left: 76px;
+	margin-top: 30px;
+	padding: 30px 22px;
+	z-index: 15;
+}
+/*//头像*/
+.sign-top{
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E2E2E2;
+}
+/*//头像图片*/
+.sign-top .photo img{
+	max-width: 90px;
+	max-height: 90px;
+}
+/*会员图标*/
+.sinfo i{
+	vertical-align: -3px;
+}
+/*签到*/
+.sinfo button{
+	padding: 7px 18px;
+	font-size: 12px;
+	border-radius: 5px;
+	border: 0;
+	background: #FF2D52;
+	color: #fff;
+}
+/*已签到*/
+.sinfo .btactiv{
+	background: #AAAAAA;
+}
+/*进度条*/
+.progress-bar{
+	width: 120px;
+	height: 12px;
+	background: #EEEEEE;
+	position: relative;
+}
+/*进度条里面*/
+.progress-bar .progress-in{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 20%;
+	height: 12px;
+	background: #FF2D52;
+}
+/*轮播图*/
+/*轮播盒子部分*/
+.banner{
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+.banner-slide img{ 
+	float: left;
+	width: 100%;
+	height: 400px;  
+}
+/*anner-cursoal子盒子*/
+.banner-slide{
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*轮播圆点*/
+.banner-dot{
+	position: absolute;
+	display: inline-block;
+	left: 50%;
+	bottom: 20px;
+	margin-left: -55px;
+}
+/*轮播圆点li*/
+.banner-dot li{
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: rgba(110,106,102,0.5);
+	z-index: 11;
+	border-radius: 50%;
+	margin: 0 5px;
+	text-align: center;
+	color: #fff;
+}
+/*轮播圆点 on*/
+.banner-dot li.on{
+	background: rgba(227,6,41,0.5);
+}
+/*优惠卷兑换*/
+/*头部*/
+.exchange-title span{
+	border-bottom: 2px solid #EC193E;
+}
+/*兑换处*/
+.exchange-list{
+	padding: 20px;
+	border: 1px solid #E2E2E2;
+}
+/*兑换处li*/
+.exchange-list li{
+	float: left;
+	margin-right: 12px;
+	width: 280px;
+	border: 1px solid #E2E2E2;
+	position: relative;
+}
+/*兑换处最后一个li*/
+.exchange-list li:last-child{
+	margin: 0;
+}
+/*li的圆形制作*/
+/*公共部分圆的样式*/
+.yuan{
+	width: 36px;
+	height: 36px;
+	background: #fff;;
+	border-radius: 50%;
+	position: absolute;
+	top: 80px;	
+}
+/*左边圆形*/
+.y-left{
+	border-right: 1px solid #E2E2E2;
+	left: -18px;
+}
+/*右边圆形*/
+.y-right{
+	border-left: 1px solid #E2E2E2;
+	left: 262px;
+}
+/*兑换卷上半部分*/
+.exchange-list-t{
+	padding: 23px 16px;
+	border-bottom: 1px dashed #E2E2E2;
+	background: #fff9f5;
+}
+/*兑换卷下半部分*/
+.exchange-list-b{
+	padding: 30px 66px;
+	background: #fff9f5;
+}
+/*兑换卷下半部分  按钮*/
+.exchange-list-b button{
+	padding: 13px 30px;
+	color: #fff;
+	background: #ff92a5;
+	border-radius: 30px;
+}
+/*限时兑换*/
+li button{   /*点击兑换前公共样式*/
+	border: 0;
+	border-radius: 10px;
+	background: #ec193e;
+	color: #fff;
+}
+li .bclick{    /*点击兑换后公共样式*/
+	background: #999999;
+}
+/*限时兑换内容部分*/
+.limited-list{
+	padding: 20px;
+	padding-bottom: 0;
+	border: 1px solid #E2E2E2;
+}
+.limited-list li{
+	width: 216px;
+	float: left;
+	text-align: center;
+	border: 1px solid #E2E2E2;
+	margin-right: 19px;
+}
+/*最后一个li*/
+.limited-list li:last-child{
+	margin: 0;
+}
+/*li鼠标悬浮时*/
+.limited-list li:hover{
+	border: 1px solid #FF2D52;
+}
+/*li按钮样式单独修改*/
+.limited-list li button{
+	padding: 12px 30px;
+}
+/*li下img*/
+.limited-list li img{
+	width: 214px;
+	height: 216px;
+}
+/*li里面文字超出隐藏只有一行的行高*/
+.limited-list-txt{
+	height: 20px;
+}
+/*精品兑换部分*/
+.boutique .limited-list li{
+	margin-bottom: 20px;
+}
+/*第五个li*/
+.boutique .limited-list li:nth-child(5){
+	margin: 0;
+}

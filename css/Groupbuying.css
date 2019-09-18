@@ -1,0 +1,147 @@
+
+
+/*团购部分-轮播*/
+.groupbuy .groupbanner{
+	width: 100%;
+	height: 298px;
+	background: hotpink;
+}
+.groupbuy .groupbanner img{
+	width: 100%;
+	height: 298px;
+}
+/*团购部分-导航选项*/
+.glsts{
+	width: 100%;
+	height: 38px;
+	background: #fff9f5;
+}
+.glsts ul li{
+	color: #666;
+	height: 38px;
+	line-height: 38px;
+	font-weight: bold;
+	float: left;
+	margin-right: 38px;
+}
+.glsts ul li.on{
+	color: #FF2D52;
+}
+.glsts ul li:last-child{
+	margin: 0;
+	margin-left: -2px;
+}
+/*团购部分-导航选项-描述*/
+.describe{
+	width: 100%;
+	height: 40px;
+	padding: 3px 0;
+	border: 1px solid #E2E2E2;
+	background: #ededed;
+}
+.describe .describe-lists li{
+	color: #929292;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	border-right: 1px solid #E2E2E2;
+}
+.describe .describe-lists li.on{
+	color: #FF2D52;
+}
+.describe .describe-lists li .padd.on{
+	color: #fff;
+	background: #FF2D52;
+}
+.describe .describe-lists li .padd{
+	padding: 0px 5px;	
+}
+/*团购部分-导航选项-描述-搜索换页*/
+.describe .describe-lists li:last-child{
+	width: 353px;
+	float: right;
+	border: 0;
+}
+.describe .describe-lists li .describe-sousuo{
+	height: 35px;
+	line-height: 35px;
+}
+.describe .describe-lists li .describe-sousuo-so{
+	width: 229px;
+	height: 25px;
+	line-height: 19px;
+	padding: 2px 10px;
+	padding-left: 2px;
+	margin-top: 5px;
+	background: #F5F5F5;
+	border: 1px solid #E2E2E2;
+}
+.describe .describe-lists li .describe-sousuo-so input{
+	width: 195px;
+	border: 0;
+}
+.describe .describe-lists li .describe-sousuo button{
+	padding: 1px 5px;
+	text-align: center;
+	background: #f5f5f5;
+	border: 1px solid #E2E2E2;
+}
+
+/*商品部分*/
+.groupbuy-main ul li{
+	width: 235px;
+	padding: 13px;
+	margin-right: 5px;
+	margin-top: 13px;	
+	float: left;
+	border: 1px solid #E2E2E2;
+}
+.groupbuy-main ul li .outer{
+	position: relative;
+}
+.groupbuy-main ul li .outer p{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-top: 1px;
+}
+.groupbuy-main ul li .outer .jindu{
+	width: 60px;
+	height: 7px;
+	border: 1px solid #ff92a5;
+	border-radius: 5px;
+	position: relative;
+}
+.groupbuy-main ul li .outer .jindu .jindunei{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:  #ff92a5;
+}
+.groupbuy-main ul li .outer .outer-text{
+	line-height: 20px;
+}
+.groupbuy-main ul li .outer .inner{
+	width: 235px;
+	height: 270px;
+	margin: -13px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 2px solid #FF2D52;
+	display: none;
+}
+.groupbuy-main ul li .outer .inner div{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 10px 0;
+	text-align: center;
+	background: #FF2D52;
+}
+.groupbuy-main ul li .outer:hover .inner{
+	display: block;
+}
+.groupbuy-main ul li:

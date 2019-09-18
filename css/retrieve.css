@@ -1,0 +1,146 @@
+/*<!--中间部分-->*/
+
+.retrieve{
+	width: 100%;
+	height: 555px;
+	border-top: 1px solid #FF2D52;
+	margin-top: 30px;
+}
+/*身份认证*/
+.retrieve-tel{
+	margin: 0 auto;
+	margin-top: 80px;
+	width: 600px;
+}
+.retrieve-tel-list li{
+	position: relative;
+}
+/*设置新密码*/
+.retrieve-tel-list .tel-line-txt span:nth-child(2){
+	position: absolute;
+	left: 45%;
+}
+/*完成*/
+.retrieve-tel-list .tel-line-txt span:nth-child(3){
+	position: absolute;
+	right: 8px;
+}
+/*文字显示时颜色*/
+.txt{
+	color: #666;
+}
+.xtxt{
+	color: #FF2D52;
+}
+/*步骤线*/
+.retrieve-tel li .tel-line{
+	margin: 0 auto;
+	width: 536px;
+	height: 2px;
+	background: #CCCCCC;
+}
+.tel-line div{
+	width: 16px;
+	height: 16px;
+	line-height: 12px;
+	color: #fff;
+	text-align: center;
+	border: 2px solid #f4f4f4;
+	border-radius: 50%;
+	background: #CCCCCC;
+	position: absolute;
+	top: -7px;
+}
+.tel-line .bgline{
+	width: 0%;
+	height: 2px;
+	background: #FF2D52;
+	border: 0;
+	border-radius: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.tel-line div:nth-child(1){
+	left: 18px;
+}
+.tel-line div:nth-child(2){
+	left: 50%;
+}
+.tel-line div:nth-child(3){
+	right: 16px;
+}
+.tel-line .yuan{
+	border: 2px solid #ffc0cb;
+	background: #FF2D52;
+}
+
+/*信息输入部分*/
+.retrieve-tel-info{
+	margin: 0 auto;
+	margin-top: 80px;
+	width: 544px;
+	height: 200px;
+}
+.retrieve-tel-info .tinput{
+	color: #d0d0d0;
+	margin-left:10px ;
+	width: 306px;
+	height: 40px;
+	line-height: 35px;
+	border: 1px solid #FF2D52;
+}
+.retrieve-tel-info .ginput{
+	width: 180px;
+} 
+.retrieve-tel-info .ginput input{
+	width: 100px;
+}
+.retrieve-tel-info .tinput input{
+	border: 0;
+	background: transparent;
+}
+.retrieve-tel-info span{
+	line-height: 35px;
+}
+.retrieve-tel-info .hBtn{
+	border: 0;
+	padding: 11px 20px;
+	background: #FF2D52;
+}
+.retrieve-tel-info .nexts{
+	margin-top: 30px;
+	margin-left: 71px;
+	border: 0;
+	padding: 10px 130px;
+	background: #FF2D52;
+}
+/*设置新密码部分*/
+.retrieve-tel .retrieve-newpw{
+	display: none;
+}
+.retrieve-tel .retrieve-newpw li div{
+	border: 1px solid #E2E2E2;
+}
+.retrieve-tel .retrieve-newpw li .ginput{
+	width: 306px;
+}
+.retrieve-tel .retrieve-newpw li .ginput input{
+	width: 180px;
+}
+.retrieve-tel .retrieve-newpw .nexts{
+	margin-left: 85px;
+	padding: 10px 126px;
+}
+/*信息输入部分*/
+.retrieve-tel-info{
+	display: block;
+}
+/*设置新密码部分*/
+.retrieve-tel .retrieve-newpw{
+	display: none;
+}
+/*完成修改部分*/
+.retrieve-tel .retrieve-sucss{
+	display: none;
+}

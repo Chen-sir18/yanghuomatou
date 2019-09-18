@@ -1,0 +1,91 @@
+
+.Listarticles{
+	
+}
+
+/*导航*/
+.Listarticles .daohang{
+	padding:0 20px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+.Listarticles .daohang img{
+	vertical-align: -3px;
+}
+/*文章列表右边热门文章*/
+.Listarticles-cont .Listarticles-right{
+	width: 220px;
+	border: 1px solid #E2E2E2;
+}
+.Listarticles-right .Listarticles-title{
+	padding: 13px 14px;
+	background: #fff9f5;
+	border-bottom: 1px solid #E2E2E2;
+}
+.Listarticles-right .Listarticles-lists{
+	padding: 20px 14px;
+	list-style: disc;
+}
+.Listarticles-right .Listarticles-lists li{
+	margin-bottom: 15px;
+	height: 14px;
+	overflow: hidden;
+	white-space: nowrap;  /*//不换行*/
+	text-overflow: ellipsis;   /*//以...显示隐藏的文字*/
+}
+.Listarticles-right .Listarticles-lists li:last-child{
+	margin: 0;
+}
+
+/*文章列表左边文章*/
+.Listarticles-left{
+	width: 960px;
+}
+.Listarticles-left ul li:first-child{
+	border-top: 1px solid #E2E2E2;
+}
+.Listarticles-left ul li{
+		border-left:1px solid #E2E2E2 ;
+		border-right: 1px solid #E2E2E2;
+}
+.Listarticles-left ul li .Listarticles-left-title{
+	margin: 0 30px;
+	padding-top: 24px;
+	padding-bottom: 20px;
+	border-bottom:1px dashed #E2E2E2;
+}
+.Listarticles-left ul li .Listarticles-left-main{
+	padding-top:20px;
+	padding-bottom: 25px;
+	border-bottom:1px solid #E2E2E2;
+}
+.Listarticles-left ul li .Listarticles-left-main span{
+	line-height: 24px;
+}
+
+
+/*//翻页按钮*/
+.Listarticles-left .good-lists-pe ul li{
+	float: right;
+	border: 0;
+	margin-left: 8px;
+}
+.good-lists-pe ul li button{
+	padding: 10px 12px;
+	border: 1px solid #E2E2E2;
+	background: #fff;
+	cursor: pointer;
+}
+/*//翻页按钮*/
+.good-lists-pe li button{
+	background: #fff;
+}
+/*选中状态*/
+.good-lists-pe li .ondown{
+	color: #fff;
+	background: #FF2D52;
+}
+/*选中状态*/
+.good-lists-pe .pagethsi{
+	background: #F2F2F2;
+}

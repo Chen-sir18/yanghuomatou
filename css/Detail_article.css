@@ -1,0 +1,17 @@
+.Detail-article{
+	width: 960px;
+	text-align: center;
+	padding: 30px 20px;
+	border: 1px solid #E2E2E2;
+}
+.Detail-article img{
+	width: 640px;
+	height: 400px;
+}
+.Detail-article-text p{
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.Detail-article-text p:last-child{
+	margin: 0;
+}

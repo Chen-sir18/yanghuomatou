@@ -1,0 +1,275 @@
+
+/*推荐商品三类*/
+.cailike .bord{
+	border: 0;
+}
+.main-title-txt-one{
+	width: 100%;
+	line-height: 58px;
+	display: inline-block;
+}
+.main-title-txt{   /*装a标签的盒子*/
+	text-align: center;
+	width: 230px;
+	height: 60px;
+	display: inline-block;
+}
+.main-title-txt:hover, 
+.main-title-txt.active{
+	cursor: pointer;     /*鼠标悬停时为手样式*/
+	position: relative;   /*因为下面的四边形的一边绝对定位所以a标签为父级要相对定位*/
+	border-bottom: 1px solid #FF2D52;
+}
+.main-title-txt:hover:after, 
+.main-title-txt.active:after 
+{  /*制作向上的小三角*/
+	content: '';
+	display: inline-block;   /*转换为内联元素*/
+	border: 7px solid transparent;  /*透明transparent，调整透明度使四边形只有一边显示*/
+	border-bottom-color: #e8660f;   /*显示的四边形的一边*/
+	position: absolute;    /*绝对定位让显示的四边形的一边位于指定位置*/
+	bottom: 0;
+	left: 50%;
+	margin-left: -8px;   /*给a标签一个左外边距*/
+}
+
+
+/*特价秒杀部分*/
+/*主标题*/
+.main-title{    /*特价秒杀的盒子下的“特价秒杀”标题盒子*/
+
+	font-size: 24px;
+	line-height: 58px;
+	color: #FF2D52;
+	font-weight: bold;
+	border-bottom: 1px solid #FF2D52;	
+}
+.discount .count-down{   /*特价秒杀下的包裹span的盒子*/
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal; /* 清除文字加粗*/
+}
+.discount .count-down .time{    /*特价秒杀处的时间部分*/
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	color: #fff;
+	background-color: #666;
+	text-align: center;
+	line-height: 22px;
+	border-radius: 50%;
+}
+
+.discount-content{  /*商品信息处*/
+	height: 326px;
+}
+
+.discount-content .goods-lists{  /*商品信息处的ul列表*/
+	width: 950px;
+	height: 100%;
+}
+/*  >后代选择器，当前盒子的子级*/
+.discount-content .goods-lists > li{  /*商品信息处的li列表*/
+	width: 33.333%;
+	height: 163px;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	padding: 27px 25px;
+}
+.discount-content .goods-lists .img{  /*商品信息的图片介绍的图片*/
+	width: 107px;
+	height: 107px;
+}
+.discount-content .goods-info{   /*商品信息部分的ul列表的左内边距*/
+	padding-left: 120px;
+}
+.progress-box{   /*进度条的边框*/
+	width: 60px;
+	height: 8px;
+	border: 1px solid #fe9373;
+	border-radius: 4px;
+	display: inline-block;  /* 转换为内联元素*/
+}
+.progress-box .progress{   /*进度条的填充颜色*/
+	width: 50%;
+	height: 100%;
+	background-color: #fe9373;
+}
+.progress-text{    /*剩余130件文字颜色*/
+	color: #ff6600;
+}
+/*查看更多*/
+.discount-content .show-more{    /*查看全部限时购大盒子*/
+	width: 250px;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	background-color: #d4e9fa;
+	padding: 45px 50px;
+}
+.show-more-content{   /*查看全部限时购大盒子下子盒子*/
+	border: 1px solid #fff;
+	height: 100%;
+	text-align: center;
+	padding-top: 35px;
+	color: #fff;
+}
+.show-more-content .more{  /*查看更多*/
+	font-size: 22px;
+	line-height: 50px;
+	display: inline-block;
+	border-bottom: 2px solid #fff;
+}
+.show-more-content .limit{  /*限时购*/
+	font-size: 30px;
+}
+/*查看更多按钮*/
+.show-more-content .button{
+	background: #a8b5bf;
+	background-color: #a8b5bf;
+	color: #fff;
+}
+/*猜你喜欢部分*/
+
+/*猜你喜欢标题部分*/
+.cailike .count-down{
+	display: inline-block;
+}
+.cailike-icon{
+	font-size: 12px;
+}
+/*猜你喜欢主体部分*/
+.cailike-main{
+	height: 360px;
+	border: 1px solid #e2e2e2;
+}
+.cailike-main .cailike-main-list{
+	width: 230px;
+	height: 320px;
+	margin-left:8px ;
+	margin-top: 20px;
+}
+.cailike-main .cailike-main-list img{
+	width: 210px;
+	height: 210px;
+}
+
+/*-商品分类楼层*/
+.goods-title-lists{   /*二级标题选项栏童装童鞋等*/
+	font-size: 14px;   /*字体大小*/
+	line-height: 34px;    /*行高*/
+	margin-top: 24px;     /*上外边距*/
+	font-weight: normal;    /*清除文字的加粗*/
+}
+.goods-title-lists a{
+	color: #000;		/*字体颜色*/
+	padding: 0 10px;     /*a标签上下为0左右为10的内边距*/
+	cursor: pointer;     /*鼠标悬停时为手样式*/
+	position: relative;   /*因为下面的四边形的一边绝对定位所以a标签为父级要相对定位*/
+}
+.goods-title-lists a:hover{  /*鼠标悬停时a标签字体颜色改变*/
+	color: #FF2D52;
+}
+.goods-title-lists a:hover:after{  /*制作向上的小三角*/
+	content: '';
+	display: inline-block;   /*转换为内联元素*/
+	border: 5px solid transparent;  /*透明transparent，调整透明度使四边形只有一边显示*/
+	border-bottom-color: #e8660f;   /*显示的四边形的一边*/
+	position: absolute;    /*绝对定位让显示的四边形的一边位于指定位置*/
+	bottom: -8px;
+	left: 50%;
+	margin-left: -5px;   /*给a标签一个左外边距*/
+}
+
+.goods-floor-list{
+	height: 470px;
+}
+/*楼层分类二级*/
+.floor-classify{
+	width: 248px;
+	height: 100%;
+	background: #d4e9fa;
+	padding: 18px 20px;
+}
+.floor-classify img{
+	width: 207px;
+	height: 163px;
+}
+/*楼层商品列表*/
+.goods-floor-list .goods-lists{
+	width: 100%;
+	height: 100%;
+	padding-left: 248px;
+	padding-right: 200px;
+}
+/*中间部分内容*/
+.goods-floor-list .goods-lists-hom{
+	width: 186px;
+	height: 235px;
+	padding: 10px 18px;
+	float: left;
+	border-left: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+}
+.goods-floor-list .goods-lists-hom img{
+	width: 151px;
+	height: 151px;
+	margin-bottom: 8px;
+}
+/*最新热卖排名*/
+.goods-floor-list .rink{
+	width: 208px;
+	height: 100%;
+	padding: 0 10px;
+	border: 1px solid #E2E2E2;
+	border-top: 0;
+}
+.goods-floor-list .rink-title{
+	height: 35px;
+	border-bottom: 1px solid #E2E2E2;
+	color: #000;
+	font-size: 14px;
+	line-height: 34px;
+}
+.rink-lists{
+	margin-top: 9px;
+}
+.rink-list{
+	padding: 9px 4px;
+	border-bottom: 1px dashed #E2E2E2;
+}
+.rink-list:last-child{
+	border: 0;
+}
+.rink-list img{
+	width: 54px;
+}
+.rink-list-cont{
+	padding-left: 60px;
+}
+.rink-list-cont .ttitle{
+	white-space: nowrap;  /*不换行*/
+}
+.floor-classify-tow a{
+	display: inline-block;
+	background: #fff;
+	width: 63px;
+	height: 63px;
+	border-radius: 50%;
+	line-height: 63px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+.floor-classify-tow a:hover{
+	background: #ffe9ed;
+	color: #FF2D52;
+}
+
+
+/*tab切换部分公共样式*/
+.tab-lists, .tab-lists1{
+	display:none;
+}
+.tab-lists.active, .tab-lists1.active{
+	display: block;
+}

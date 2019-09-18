@@ -1,0 +1,202 @@
+/*登录注册部分*/
+
+/*中间部分*/
+.cente{
+	width: 100%;
+	height: 475px;
+	margin-bottom: 100px;
+	background: url(../img/zhuce.jpg);
+	position: relative;
+}
+/*登陆部分*/
+.cinfo{
+	padding: 25px 20px;
+	background: #fff;
+	position: absolute;
+	right: 227px;
+	top: 57px;
+	
+}
+.cinfo{
+	display: none;
+}
+/*注册部分*/
+.register{
+	/*display: none;*/
+}
+/*登陆部分的li*/
+.cinfo li{
+	width: 306px;
+	height: 26px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.register li{
+	width: 306px;
+	height: 26px;
+	margin-bottom: 15px;
+}
+/*登陆部分的立即注册按钮*/
+.cinfo .nxt{
+	width: 16px;
+	height: 16px;
+	line-height: 14px;
+	text-align: center;
+	color: #fff;
+	background: #FF2D52;
+	border-radius: 50%;
+	display: inline-block;
+}
+/*登陆部分的第二行提示*/
+.vert{
+	line-height: 26px;
+	background: #fff9f5;
+	border: 1px solid #FF2D52;
+}
+/*登陆部分的第二行提示字符图标*/
+.vert i{
+	color: #FF2D52;
+	vertical-align: -2px;
+}
+/*登陆部分的第二个ul的li*/
+.cinfo .cinfo-lists li{
+	height: 40px;
+	line-height: 30px;
+	padding: 2px 0;
+	margin-bottom: 15px;
+	border: 1px solid #E2E2E2;
+}
+/*登陆部分的第二个ul的li 下的inset*/
+.cinfo .cinfo-lists li .inset{
+	border: 0;
+	color: #959595;
+	font-size: 12px;
+	border-left: 1px solid #E2E2E2;
+}
+/*登陆部分的第二个ul的matic这个li*/
+.cinfo .cinfo-lists .matic{
+	border: 0;
+}
+/*登陆部分的第二个ul的matic这个li的input*/
+.cinfo .cinfo-lists .matic input{
+	vertical-align: -3px;
+	opacity: 0.5;
+	background: #fff;
+}
+/*登陆部分的第二个ul的最后一个li*/
+.cinfo .cinfo-lists li:last-child{
+	border: 0;
+	padding: 0;
+}
+/*登陆部分的第二个ul的最后一个li下的登陆按钮*/
+.cinfo .cinfo-lists li:last-child button{
+	border: 0;
+	padding: 10px 135px;
+	color: #fff;
+	background: #FF2D52;
+}
+/*登陆部分的第三个ul下span*/
+.san li span{
+	vertical-align: 10px;
+}
+/*登陆部分的第三个ul下img*/
+.san li img{
+	margin-right: 5px;
+}
+
+/*注册部分*/
+.register{
+	padding: 20px 20px;
+	background: #fff;
+	position: absolute;
+	right: 227px;
+	top: 57px;
+	
+}
+.register li{
+	margin: 0;
+	position: relative;
+}
+.register li input{
+	border: 0;
+	display: inline-block;
+	font-size: 12px;
+	background: transparent;
+	position: absolute;
+	top: 10px;
+}
+.register li i{
+	color: #CCCCCC;
+}
+.register li:nth-child(2){
+	width: 284px;
+	padding: 5px;
+	border: 1px solid #fbaab8;
+	background: #fff9f5;
+	margin-bottom: 5px;
+	display: none;
+}
+label.error{
+	padding: 5px;
+	position: absolute;
+	color: red;
+	width: 70%;
+	height: 26px;
+	line-height: 22px;
+	font-size: 12px;
+	top: -28px;
+	left: 0;
+	background: #fff9f5;
+}
+.register li:nth-child(3){
+	height: 40px;
+	line-height: 35px;
+	border: 1px solid #E2E2E2;
+	color: #959595;
+}
+.register li:nth-child(4){
+	color: #CCCCCC;
+}
+.register li:nth-child(5){
+	height: 40px;
+}
+.register li:nth-child(5) div{
+	width: 192px;
+	line-height: 35px;
+	float: left;
+	border: 1px solid #E2E2E2;
+	margin-right: 5px;
+}
+.register li:nth-child(5) button{
+	border: 0;
+	padding: 10px 21px;
+	background: #ff607c;
+	cursor: pointer;
+}
+.register li:nth-child(5) button.disabled{
+	background: #959595;
+	cursor: not-allowed;
+}
+.register li:nth-child(6), .register li:nth-child(7){
+	height: 40px;
+	line-height: 35px;
+	border: 1px solid #E2E2E2;
+	color: #959595;
+	margin-top: 15px;
+}
+.register li:nth-child(6) input{
+	width: 170px;
+}
+.register li:nth-child(8){
+	height: 40px;
+	line-height: 35px;
+
+}
+.register li:nth-child(9){
+	height: 40px;
+}
+.register li:nth-child(9) button{
+	border: 0;
+	padding: 10px 126px;
+	background: #FF2D52;
+}

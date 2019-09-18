@@ -1,0 +1,348 @@
+ /*模块封装*/
+ /*主要放顶部和底部、侧边栏*/
+
+ /*顶部导航*/
+.top-nav{
+	/*height: 35px;*/
+	line-height: 34px;   /*行高使其居中*/
+	border-bottom: 1px solid #ddd;  /*下边框*/
+}
+/*搜索*/
+.search-box{
+	/*盒子宽度根据内容撑高 ,可以设置宽高*/
+	display: inline-block;
+	margin-left:190px;
+}
+.search{
+	border: 2px solid #FF2D52;
+	/*内联元素会有3像素差距，给父级设置字体大小为0*/
+	font-size: 0;
+}
+.search-input{   /*搜索框*/
+	border: 0;
+	height: 36px;
+	width: 430px;
+	background: url(../img/sousuo.png)no-repeat 5px center;
+}
+
+.search-btn{     /*搜索按钮*/
+	/*a行内元素不能给宽高*/
+	display: inline-block;  转换为内联元素
+	height: 36px;
+	width: 80px;
+	background-color: #FF2D52;
+	color: #FFFFFF;
+	line-height: 38px;
+	text-align: center;
+	font-size: 16px;
+}
+/*主导航*/
+.main-nav{
+	height: 41px;
+	line-height: 40px;
+}
+.classify-all{
+	width: 200px;
+	position: relative;
+}
+.classify-all:hover{   /*鼠标悬停时样式*/
+	background: #EC193E;
+}
+
+.classify-all:hover .classify-lists{   /*鼠标悬停时样式*/
+	display: block;
+}
+.classify-lists{
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+.classify-lists li{
+	background: #FF2D52;
+/*	height: 51px;*/
+	line-height: 50px;
+	border-bottom: 1px solid #EC193E;
+	padding: 0 20px 0 30px;
+
+}
+.classify-lists li:hover , .classify-all .static .classify-text{   /*鼠标悬停时样式*/
+	background: #EC193E;
+}
+/*二级分类*/
+.classify-tow{
+	width: 722px;
+	height: 306px;
+	border: 1px solid #ff7011;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	display: none;
+	color: #333;
+	padding: 12px 20px;
+}
+
+.classify-tow-lists{
+	width: 50%;
+	padding: 0 20px;
+/*	background-color: red;*/
+	float: left;
+	margin-bottom: 16px;
+}
+.classify-tow-lists .title{
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.classify-tow-lists .lists{
+	line-height: 24px;	
+}
+.classify-tow-lists .lists a:hover{  /*鼠标悬停时样式*/
+	color: #FF2D52;
+	cursor: pointer;   /*鼠标悬停时鼠标变为手*/
+}
+.classify-lists li:hover .classify-tow{  /*鼠标悬停时样式*/
+	display: block;
+}
+.classify-all .icon-caidan{
+	vertical-align: -5px;  /*使菜单图标与全部商品分类两个盒子微调对齐*/
+	font-size: 24px;
+}
+.meun-li li{
+	padding: 0 20px;
+	float: left;
+}
+.meun-li li:hover{   /*鼠标悬停时样式*/
+	background: #EC193E;
+}
+
+/*底部*/
+/*底部上部分*/
+/*底部上部分上*/
+.foot{
+	width: 100%;
+	height: 376px;
+	border-top: 1px solid #FF2D52;
+}
+.foot-top{
+	height: 318px;
+}
+.foot-top .foot-top-t{
+	height: 150px;
+}
+.foot-top .foot-top-t li{
+	width: 164px;
+	margin-left: 65px;
+}
+/*底部上部分下*/
+.foot-top .foot-top-b{
+	height: 168px;
+}
+.foot-top-box{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-top: 40px;
+	background: url(../img/oder.png)no-repeat;
+}
+.foot-top-box span{
+	line-height: 60px;
+}
+.span{
+	display: block;
+}
+.foot-top-box2{
+	padding-top: 50px;
+}
+/*底部下部分*/
+/*底部下部分左文字*/
+.foot-top-b-text{
+	width: 950px;
+	height: 120px; 
+	border-right: 1px solid #dbdbdb;
+}
+.foot-top-b-text li{
+	width: 109px;
+	margin-left: 30px;
+	margin-right: 50px;
+}
+/*底部下部分右电话*/
+.foot-top-b-tel{
+	width: 250px;
+	height: 120px;
+	text-align: center;
+}
+.foot-top-b-tel li{
+	margin-bottom: 15px;
+}
+/*<!--底部售后下面底栏条-->*/
+.foot-bottom{
+	width: 100%;
+	height: 60px;
+	background-color: #343434;
+}
+.foot-bottom .content{
+	height: 60px;
+}
+.foot-bottom .content li img{
+	margin-top: 15px;
+}
+.foot-bottom .content li{
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	color: #d8d8d8;
+}
+/*侧边栏部分*/
+.aside{
+	position: fixed;
+	width: 35px;
+	background: #535353;
+	top: 0;
+	bottom:0;
+	right: 0;
+}
+
+.aside-panel{
+	width: 100%;
+	background: #535353;
+	height: 100%;
+	position: relative;
+	bottom: 0;
+	z-index: 10;
+}
+.aside-bar{
+	position: absolute;
+	top: 40%;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	background: #535353;
+}
+.aside-bar-lists .shop{
+	padding: 0 7px;
+}
+.aside-bar-lists .shop .number{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	border-radius: 50%;
+	background: #FF2D52;
+	line-height: 16px;
+}
+
+.aside-bar-lists .shop:hover .number{
+	background: #FFF;
+	color: #FF2D52;
+}
+.aside-bar-lists li{
+	text-align: center;
+	padding: 11px 0;
+	color: #fff;
+	position: relative;
+}
+.aside-bar-lists li:hover{
+	background: #FF2D52;	
+}
+.aside-bar-lists li:hover .tooltip-bar{
+	display: block;
+}
+
+.tooltip-bar{
+	background: #EC193E;
+	color: #fff;
+	position: absolute;
+	right: 45px;
+	top: 0;
+	min-width: 70px;
+	min-height: 40px;
+	line-height: 40px;
+	display: none;
+}
+/*购物车部分*/
+.aside-slide{
+	position: absolute;
+	width: 300px;
+	height: 100%;
+	top: 0;
+	background: white;
+	right: -265px;
+	border: 1px solid #E2E2E2;
+}
+.aside-slide .aside-slide-title{
+	height: 40px;
+	line-height: 40px;
+}
+.aside-slide .aside-slide-lists{
+	height: 700px;
+}
+.aside-slide .aside-slide-lists li{
+	border: 1px solid #E2E2E2;
+}
+.aside-slide .aside-slide-lists img{
+	width: 85px;
+	height: 85px;
+}
+.aside-slide .aside-slide-lists .title-car{
+	height: 34px;
+}
+/*购物车结算部分*/
+.aside-bar-lists-tow{
+	border-top: 1px solid #E2E2E2;
+	text-align: center;
+	line-height: 20px;
+	padding: 20px 10px;
+}
+/*购物车结算按钮*/
+.button-bar{
+	display: inline-block;
+	border-radius: 5px;
+	padding: 5px 80px;
+	background: #FF2D52;
+	cursor: pointer;
+}
+.button-bar:hover{
+	background: #EC193E;
+}
+/*客户部分*/
+.text-kehu-one{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	background: #e8e8e8;
+}
+.text-kehu-tow span{
+	vertical-align: 7px;
+	margin-left: 10px;
+}
+.text-kehu-tow p{
+	margin-bottom: 10px;
+	margin-left: 25px;
+}
+.text-kehu-thr{
+	width: 250px;
+	border-top: 1px solid #E2E2E2;
+}
+/*二维码部分*/
+.slide-bar-bottom{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #535353;
+}
+.tooltip-coder{
+	bottom: 0;
+	top: auto;
+	line-height: 0;
+}
+/*滑块内容*/
+.aside-slide-content{
+	width:100%;
+	height: 100%;
+	display: none;
+}
+.aside-slide-cart{
+	background: greenyellow;
+}
+.aside-slide-server{
+	background: white;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			 .panel-body {
+			 	width: 100px;
+				border:1px solid #ddd;
+				border-radius:3px;
+				background:#33ff33;
+			}
+			.panel-body:not(:nth-child(2)) {
+				display:none;
+			}
+			.panel-header{
+				width: 100px;
+				background: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="panel">
+		    <div class="panel-header">
+		     	 按钮一
+		    </div>
+		    <div class="panel-body">
+		      	长枪一在
+		    </div>
+		    <div class="panel-header">按钮二</div>
+		    <div class="panel-body">
+		     	 枪出如龙
+		    </div>
+		    <div class="panel-header">按钮三</div>
+		    <div class="panel-body">
+		     	  德玛西亚
+		    </div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	<script>
+		 $(".panel").on("click", ".panel-header", function() {
+		     var next = $(this).next();
+		     next.slideToggle("slow");
+		     $(".panel-body").not(next).slideUp();
+		 })
+	</script>
+</html>

@@ -1,0 +1,191 @@
+/*我的购物车部分*/
+.shopping-main{
+	border: 1px solid #E2E2E2;
+	padding-top: 20px;
+}
+/*全选商品等栏*/
+.election{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	background: #FFF9F5;
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+}
+.margin-r-50{
+	margin-right: 60px;
+}
+.margin-r-105{
+	margin-right: 105px;
+}
+.margin-r-120{
+	margin-right: 120px;
+}
+.margin-r-180{
+	margin-right: 180px;
+}
+.election input, .elections input{
+	vertical-align: -3px;
+	margin-right: 10px;
+}
+.election-span{
+	display: inline-block;
+	float: right;
+}
+/*店铺洋货码头自营店*/
+.elections{
+	height: 50px;
+	line-height: 40px;
+	padding: 0 20px;
+}
+/*商品显示*/
+/*<!--商品详细栏--*/
+.election-main{
+	padding: 20px;
+	padding-bottom: 0;
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+}
+.election-main input{
+	vertical-align: 34px;
+}
+.election-main img{
+	width: 80px;
+	height: 80px;
+	margin-left: 24px;
+	margin-right: 20px;
+}
+.election-maintxt{
+	width: 180px;
+	height: 36px;
+	margin-right: 50px;
+	vertical-align: 44px;
+	display: inline-block;
+}
+.election-main-modify{
+	width: 160px;
+	border: 1px dashed #E2E2E2;
+	padding-top: 13px;
+	padding-bottom: 24px;
+	padding-left: 13px;
+	display: inline-block;
+	position: relative;
+	top: -36px;
+	margin-right: 90px;
+}
+.election-main-modify span:last-child{
+	color: #fff;
+	background: #FF2D52;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.election-main-price{
+	vertical-align: 26px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 60px;
+}
+.election-main-price span:last-child{
+	border: 1px dashed #FF2D52;
+	border-radius: 2px;
+	padding: 0 10px;
+}
+.election-main-numb{
+	width: 98px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #E2E2E2;
+	text-align: center;
+	display: inline-block;
+	vertical-align: 60px;
+	margin-right: 66px;
+}
+.election-main-numb button{
+	width: 18px;
+	height: 100%;
+	opacity: 0.2;
+	border: 0 solid #E2E2E2;
+
+}
+.election-main-unit{
+	display: inline-block;
+	vertical-align: 64px;
+	margin-right: 118px;
+}
+.election-main-move{
+	display: inline-block;
+	vertical-align: 50px;
+}
+/*<!--商品优惠详细-->*/
+.discount{
+	height: 40px;
+	padding-right: 24px;
+	line-height: 40px;
+}
+.discount span{
+	margin-right: 20px;
+	float: right;
+}
+/*<!--结算栏-->*/
+.settle{
+	padding: 15px 0;
+	padding-left: 20px;
+	border-top: 1px solid #E2E2E2;
+	background: #f7f7f7;
+	position: relative;
+}
+.settle-txt{
+	text-align: right;
+	display: inline-block;
+	width: 1020px;
+}
+.settle-left{
+	display: inline-block;
+}
+.settle-left input{
+	vertical-align: -3px;
+}
+.settle a{
+	color: #fff;
+	padding: 26px 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #FF2D52;
+}
+/*猜你喜欢部分*/
+/*猜你喜欢标题部分*/
+.cailike{
+	height: 320px;
+	border: 1px solid #E2E2E2;
+}
+.cailike-title{
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	padding: 0 20px;
+	background: #FFF9F5;
+	border-bottom: 1px solid #E2E2E2;
+}
+.cailike-title a span{
+	vertical-align: 2px;
+}
+.cailike-list{
+	padding: 20px 10px;
+}
+.cailike-lists-li img{
+	width: 180px;
+	height: 180px;
+}
+.cailike-lists-li{
+	width: 180px;
+	float: left;
+	margin-right:19px ;
+}
+.cailike-lists-li:last-child{
+	margin: 0;
+}
+.cailike-list-txt{
+	height: 34px;
+}

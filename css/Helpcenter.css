@@ -1,0 +1,67 @@
+/*首页导航*/
+.Helpcenter .daohang{
+	padding:0 20px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+.Helpcenter .daohang img{
+	vertical-align: -3px;
+}
+/*左侧列表*/
+.Helpcenter-main-left{
+	width: 220px;
+	border: 1px solid #E2E2E2;
+}
+.Helpcenter-main-left ul li{
+	padding: 15px 20px;
+	color: #333;
+	font-size: 18px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.Helpcenter-main-left ul li:last-child{
+	border: 0;
+}
+.Helpcenter-main-left ul li a{
+	display: block;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.Helpcenter-main-left ul li .tcolor{
+	color: #FF2D52;
+}
+.Helpcenter-main-left ul li a:last-child{
+	margin-bottom: 0;
+}
+.Helpcenter-main-left ul .ying{
+	display:none;
+}
+/*文章内容最大盒子*/
+.Helpcenter-main-right{
+	width: 960px;
+	padding: 20px;
+	padding-top: 0;
+	border: 1px solid #E2E2E2;
+}
+/*文章大标题*/
+.Hmr-title{
+	border-bottom: 1px dashed #E2E2E2;
+}
+/*文章小标题*/
+.Helpcenter-main-right dt{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+/*文章内容*/
+.Helpcenter-main-right dd{
+	line-height: 22px;
+	color: #333;
+}
+/*文章段落*/
+.Helpcenter-main-right dd p{
+	margin-bottom: 15px;
+}
+.Helpcenter-main-right dd p:last-child{
+	margin-bottom: 0;
+}
